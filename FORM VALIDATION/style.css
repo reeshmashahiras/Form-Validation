@@ -1,0 +1,101 @@
+body {
+  background-color: #49cef0;
+  padding-top: 40px;
+}
+
+.container {
+  background-color: #5dd2f0;
+  border-radius: 1px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+/*  Center the form horizontally on small devices */
+
+@media (max-width: 576px) {
+  .container {
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+.error-message {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.success-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  z-index: 1000;
+}
+
+.success-message p {
+  margin-bottom: 50px;
+}
+
+.success-message button {
+  margin-top: 10px;
+  padding: 5px 8px;
+  font-size: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+ 
+  
+
+  
